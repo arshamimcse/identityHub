@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Fonts CDN  -->
+    <link href="https://db.onlinewebfonts.com/c/8f2a9d487bbbc60974cd132fc3a63862?family=Aeonik+Regular" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assetes/css/bootstrap.min.css">
+    <!-- Reset CSS  -->
+    <link rel="stylesheet" href="./assetes/css/reset.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Main CSS  -->
+    <link rel="stylesheet" href="./assetes/css/style.css">
+    <link rel="stylesheet" href="./assetes/css/responsive.css">
+</head>
+<body>
+    <!-- header section start  -->
+    <header>
+        <div class="container">
+            <nav class="nav-content">
+                <div class="logo d-flex gap-2">
+                    <img src="assetes/images/Vector - 0.svg" alt="Website Logo">
+                    <h4>IdentityHub</h4>
+                </div>
+                <div class="nav-links">
+                    <ul class="d-flex gap-4">
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                </div>
+                <div class="nav-cta-button">
+                    <button class="button-primary nav-btn d-flex align-items-center gap-1">Start free trial <img src="./assetes/images/arrow-right-03.svg" alt="Arrow right icon"></button>
+                </div>
+                <svg onclick="toggleMenu()" class="hanburger-icon" xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" width="24" height="24"><path d="M3.75 5.25a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 0-1.5H3.75Zm0 6a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 0-1.5H3.75Zm0 6a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 0-1.5H3.75Z"></path></svg>
+            </nav>
+        </div>
+    </header>
+    <!-- header section end  -->
+
+    <main>
+        <!-- hero section start  -->
+        <section id="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-overlay">
+                        <div class="hero-top-content">
+                            <div class="secure-data-div">
+                                <a class="button-primary secure-data-btn" href="#">Secure your data</a>
+                            </div>
+                            <h1 class="hero-title">Identity-hub is a better way to achieve <span>privacy</span><img src="./assetes/images/Vector 2.svg" alt=""></h1>
+                            <p class="hero-desc">Make your data invisible by generating unlimited identities. The next-level in privacy protection for online and travel.</p>
+                            <div class="d-flex gap-3">
+                                <a class="button-primary free-trial-btn" href="#">Start free trial</a>
+                                <a class="button-secondary user-it-now-btn" href="#">Use it Now</a>
+                            </div>
+                        </div>
+                        <div class="hero-bottom-content">
+                            <div class="hero-img">
+                                <img src="assetes/images/productivity.svg" alt="Hero Image">
+                            </div>
+                            <div class="one-time-passcode">
+                                <img src="assetes/images/Frame 48.svg" alt="Security Icon">
+                                <div>
+                                    <h6>One-time passcode</h6>
+                                    <p>Kas3345-r32</p>
+                                </div>
+                            </div>
+                            <div class="phone-numbers">
+                                <img src="assetes/images/Frame 48 (1).svg" alt="Security Icon">
+                                <div>
+                                    <h6>Phone numbers</h6>
+                                    <p>+1 (456) 453-3456</p>
+                                </div>
+                            </div>
+                            <div class="email-address">
+                                <img src="assetes/images/Frame 48 (2).svg" alt="Security Icon">
+                                <div>
+                                    <h6>Email address</h6>
+                                    <p>davidjx@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="credit-card">
+                                <img src="assetes/images/Frame 48 (3).svg" alt="Security Icon">
+                                <div>
+                                    <h6>Credit card</h6>
+                                    <p>123 456 789 1243</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero section end  -->
+
+
+        <!-- services section start  -->
+        <section id="services-section">
+            <div class="container">
+                <div class="services-content">
+                    <div class="services-top-content">
+                        <div>
+                            <button class="button-primary services-btn">Services</button>
+                        </div>
+                        <h3>See our services for secure your <span>Data</span></h3>
+                        <p>Make your data invisible by generating unlimited identities. The next-level in privacy protection for online and travel.</p>
+                    </div>
+                    <div class="services-bottom-content">
+                        <div class="service-card">
+                            <div>
+                                <img src="assetes/images/01.svg" alt="Personal Information Icon">
+                            </div>
+                            <div class="service-card-details">
+                                <h4>Personal Information removal</h4>
+                                <p>Lets users quickly find answers to their questions without having to search through multiple sources.</p>
+                            </div>
+                            <a class="explore-more-btn" href="#">Explore More <img src="assetes/images/arrow-right-01.svg" alt="Arrow Right Icon"></a>
+                        </div>
+                        <div class="service-card">
+                            <div>
+                                <img src="assetes/images/02.svg" alt="Personal Information Icon">
+                            </div>
+                            <div class="service-card-details">
+                                <h4>Cloaking Alias Profiles</h4>
+                                <p>Lets users quickly find answers to their questions without having to search through multiple sources.</p>
+                            </div>
+                            <a class="explore-more-btn" href="#">Explore More <img src="assetes/images/arrow-right-01.svg" alt="Arrow Right Icon"></a>
+                        </div>
+                        <div class="service-card">
+                            <div>
+                                <img src="assetes/images/03.svg" alt="Personal Information Icon">
+                            </div>
+                            <div class="service-card-details">
+                                <h4>Virtual identities Security</h4>
+                                <p>Lets users quickly find answers to their questions without having to search through multiple sources.</p>
+                            </div>
+                            <a class="explore-more-btn" href="#">Explore More <img src="assetes/images/arrow-right-01.svg" alt="Arrow Right Icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services section end  -->
+
+
+        <!-- Features section start  -->
+         <section id="features-section">
+            <div class="container">
+                <div class="features-content">
+                    <div class="features-top-content">
+                        <div>
+                            <a class="button-primary features-btn" href="#">Features</a>
+                        </div>
+                        <h2>Why <span>Choose</span> us</h2>
+                        <p>We are the only service that provides all 3 services as a packaged service</p>
+                    </div>
+                    <div class="d-flex justify-content-between features-card">
+                        <div class="features-card1-left-content">
+                            <div class="features-card-arrowdown1">
+                                <img src="assetes/images/Frame 845.svg" alt="Arrow down Icon">
+                            </div>
+                            <div class="features-card-content">
+                                <h4>Protect Personal Information</h4>
+                                <div>
+                                    <img src="assetes/images/checkmark-circle-01.svg" alt="Checkmark Icon">
+                                    <p>The first step involves identifying all places where your personal information might be present.</p>
+                                </div>
+                                <div>
+                                    <img src="assetes/images/checkmark-circle-01.svg" alt="Checkmark Icon">
+                                    <p>Once you've identified where your information is held, the next step is to contact the administrators of this platform</p>
+                                </div>
+                                <div>
+                                    <img src="assetes/images/checkmark-circle-01.svg" alt="Checkmark Icon">
+                                    <p>Removing personal information is not a one-time task but requires ongoing vigilance.</p>
+                                </div>
+                                <div>
+                                    <img src="assetes/images/checkmark-circle-01.svg" alt="Checkmark Icon">
+                                    <p>There are professional services and tools available that specialise in personal information removal.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="features-card1-right-content">
+                            <img src="assetes/images/Group 2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between features-card">
+                        <div class="d-flex features-card2-left-content">
+                            <div  class="features-card-arrowdown2">
+                                <img src="assetes/images/Frame 845-2.svg" alt="Arrow down Icon">
+                            </div>
+                            <div class="features-card-content">
+                                <h4>Detailed Reporting</h4>
+                                <div>
+                                    <img src="assetes/images/checkmark-circle-01.svg" alt="Checkmark Icon">
+                                    <p>The first step involves identifying all places where your personal information might be present.</p>
+                                </div>
+                                <div>
+                                    <img src="assetes/images/checkmark-circle-01.svg" alt="Checkmark Icon">
+                                    <p>The first step involves identifying all places where your personal information might be present.</p>
+                                </div>
+                                <div>
+                                    <img src="assetes/images/checkmark-circle-01.svg" alt="Checkmark Icon">
+                                    <p>The first step involves identifying all places where your personal information might be present.</p>
+                                </div>
+                                <div>
+                                    <img src="assetes/images/checkmark-circle-01.svg" alt="Checkmark Icon">
+                                    <p>The first step involves identifying all places where your personal information might be present.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="features-card2-right-content">
+                            <div class="features-card2-right-content-details">
+                                <div class="features-card2-right-content-card">
+                                    <div class="features-card2-right-content-card-img">
+                                        <img src="assetes/images/user.svg" alt="User Icon">
+                                    </div>
+                                    <div>
+                                        <h5>Username</h5>
+                                        <p>+1 (456) 453-3456</p>
+                                    </div>
+                                </div>
+                                <div class="features-card2-right-content-card">
+                                    <div class="features-card2-right-content-card-img">
+                                        <img src="assetes/images/call.svg" alt="Phone Icon">
+                                    </div>
+                                    <div>
+                                        <h5>Phone numbers</h5>
+                                        <p>+1 (456) 453-3456</p>
+                                    </div>
+                                </div>
+                                <div class="features-card2-right-content-card">
+                                    <div class="features-card2-right-content-card-img">
+                                        <img src="assetes/images/mail-01.svg" alt="Mail Icon">
+                                    </div>
+                                    <div>
+                                        <h5>Email address</h5>
+                                        <p>+1 (456) 453-3456</p>
+                                    </div>
+                                </div>
+                                <div class="features-card2-right-content-card">
+                                    <div class="features-card2-right-content-card-img">
+                                        <img src="assetes/images/credit-card-accept.svg" alt="Credit-card Icon">
+                                    </div>
+                                    <div>
+                                        <h5>Credit card</h5>
+                                        <p>+1 (456) 453-3456</p>
+                                    </div>
+                                </div>
+                                <div class="features-card2-right-content-card">
+                                    <div class="features-card2-right-content-card-img">
+                                        <img src="assetes/images/security-password.svg" alt="Security Password Icon">
+                                    </div>
+                                    <div>
+                                        <h5>Password</h5>
+                                        <p>Kas3345-r32</p>
+                                    </div>
+                                </div>
+                                <div class="features-card2-right-content-card">
+                                    <div class="features-card2-right-content-card-img">
+                                        <img src="assetes/images/square-lock-password.svg" alt="Square Lock Icon">
+                                    </div>
+                                    <div>
+                                        <h5>One-time passcode</h5>
+                                        <p>Kas3345-r32</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between features-card">
+                        <div class="d-flex features-card3-left-content">
+                            <div class="features-card-arrowdown3">
+                                <img src="assetes/images/Frame 845-3.svg" alt="Arrow down Icon">
+                            </div>
+                            <div class="features-card-content">
+                                <h4>Secure All Data</h4>
+                                <div>
+                                    <img src="assetes/images/checkmark-circle-01.svg" alt="Checkmark Icon">
+                                    <p>The first step involves identifying all places where your personal information might be present.</p>
+                                </div>
+                                <div>
+                                    <img src="assetes/images/checkmark-circle-01.svg" alt="Checkmark Icon">
+                                    <p>The first step involves identifying all places where your personal information might be present.</p>
+                                </div>
+                                <div>
+                                    <img src="assetes/images/checkmark-circle-01.svg" alt="Checkmark Icon">
+                                    <p>The first step involves identifying all places where your personal information might be present.</p>
+                                </div>
+                                <div>
+                                    <img src="assetes/images/checkmark-circle-01.svg" alt="Checkmark Icon">
+                                    <p>The first step involves identifying all places where your personal information might be present.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="features-card3-right-content">
+                            <div class="features-card3-right-content-img">
+                                <img src="assetes/images/Vector.svg" alt="">
+                            </div>
+                            <div class="features-card3-right-content-card1 ">
+                                <div class="features-card3-right-content-card-img">
+                                    <img src="assetes/images/mail-01.svg" alt="Mail Icon">
+                                </div>
+                                <div>
+                                    <h5>Email address</h5>
+                                    <p>nija@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="features-card3-right-content-card2">
+                                <div class="features-card3-right-content-card-img">
+                                    <img src="assetes/images/user.svg" alt="User Icon">
+                                </div>
+                                <div>
+                                    <h5>Username</h5>
+                                    <p>tufayel nija</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- Features section end  -->
+
+
+        <!-- Pricing section start  -->
+         <section id="pricing-section">
+            <div class="container">
+                <div class="pricing-content">
+                    <div class="pricing-top-content">
+                        <div>
+                            <a class="button-primary pricing-btn d-inline-block" href="#">Pricing</a>
+                        </div>
+                        <h2>Our <span>Pricing</span> Package</h2>
+                    </div>
+                    <div class="pricing-cards">
+                        <div class="pricing-card-left">
+                            <div class="pricing-card-title">
+                                <h3>Basic</h3>
+                                <p>AI chatbot, personalized recommendations</p>
+                            </div>
+                            <div class="pricing-card-price">
+                                <h3><span>$</span>0</h3>
+                            </div>
+                            <button class="button-primary get-started-btn">Get Started</button>
+                            <div class="pricing-card-features">
+                                <div class="pricing-card-feature border-0">
+                                    <img src="assetes/images/checkmark-circle-02.svg" alt="Checkmark Icon">
+                                    <p>Type of threat</p>
+                                </div>
+                                <div class="pricing-card-feature">
+                                    <img src="assetes/images/checkmark-circle-02.svg" alt="Checkmark Icon">
+                                    <p>Online presence</p>
+                                </div>
+                                <div class="pricing-card-feature">
+                                    <img src="assetes/images/checkmark-circle-02.svg" alt="Checkmark Icon">
+                                    <p>Access to all modules</p>
+                                </div>
+                                <div class="pricing-card-feature">
+                                    <img src="assetes/images/checkmark-circle-02.svg" alt="Checkmark Icon">
+                                    <p>Notability</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-card-center">
+                            <div class="pricing-card-title">
+                                <h3>Preminum</h3>
+                                <p>Advanced AI chatbot, priority support, analytics dashboard</p>
+                            </div>
+                            <div class="pricing-card-price">
+                                <h3><span>$</span>9.99</h3>
+                            </div>
+                            <button class="button-secondary get-started-btn">Get Started</button>
+                            <div class="pricing-card-features">
+                                <div class="pricing-card-feature border-0">
+                                    <img src="assetes/images/checkmark-circle-02.svg" alt="Checkmark Icon">
+                                    <p>Type of threat</p>
+                                </div>
+                                <div class="pricing-card-feature">
+                                    <img src="assetes/images/checkmark-circle-02.svg" alt="Checkmark Icon">
+                                    <p>Online presence</p>
+                                </div>
+                                <div class="pricing-card-feature">
+                                    <img src="assetes/images/checkmark-circle-02.svg" alt="Checkmark Icon">
+                                    <p>Access to all modules</p>
+                                </div>
+                                <div class="pricing-card-feature">
+                                    <img src="assetes/images/checkmark-circle-02.svg" alt="Checkmark Icon">
+                                    <p>Notability</p>
+                                </div>
+                                <div class="pricing-card-feature">
+                                    <img src="assetes/images/checkmark-circle-02.svg" alt="Checkmark Icon">
+                                    <p>Optimize existing websites</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-card-right">
+                            <div class="pricing-card-title">
+                                <h3>Enterprise</h3>
+                                <p>AI chatbot, personalized recommendations</p>
+                            </div>
+                            <div class="pricing-card-price">
+                                <h3><span>$</span>20.99</h3>
+                            </div>
+                            <button class="button-primary get-started-btn">Get Started</button>
+                            <div class="pricing-card-features">
+                                <div class="pricing-card-feature border-0">
+                                    <img src="assetes/images/checkmark-circle-02.svg" alt="Checkmark Icon">
+                                    <p>Type of threat</p>
+                                </div>
+                                <div class="pricing-card-feature">
+                                    <img src="assetes/images/checkmark-circle-02.svg" alt="Checkmark Icon">
+                                    <p>Online presence</p>
+                                </div>
+                                <div class="pricing-card-feature">
+                                    <img src="assetes/images/checkmark-circle-02.svg" alt="Checkmark Icon">
+                                    <p>Access to all modules</p>
+                                </div>
+                                <div class="pricing-card-feature">
+                                    <img src="assetes/images/checkmark-circle-02.svg" alt="Checkmark Icon">
+                                    <p>Notability</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- Pricing section end  -->
+
+
+        <!-- Testimonials section start  -->
+        <section id="testimonials-section">
+            <div class="container">
+                <div class="testimonials-content">
+                    <div class="testimonials-top-content">
+                        <div>
+                            <a class="button-primary testimonials-btn d-inline-block" href="#">Testimonials</a>
+                        </div>
+                        <h2 class="testimonials-title">What's our user <span>says</span> about us</h2>
+                    </div>
+                    <div class="reviews-slider-container">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper testimonials-reviews">
+                               <div class="swiper-slide">
+                                 <div class="testimonials-card">
+                                    <img src="assetes/images/5d02171f308a2ac9aa6f7683e4ed9c6d.jpg" alt="User Image" width="44px" height="44px" >
+                                    <div class="reviews-card-user-content">
+                                        <h3>David J. karem</h3>
+                                        <h5>Businessmen <span></span> 1 day ago</h5>
+                                        <p>Forget about spam, advertising mailings, hacking and attacking robots. Keep your real mailbox clean and secure. Temp Mail provides temporary, secure, anonymous, free, disposable email address. Stalkers and disgruntled acquaintances use the Internet to find addresses, phone numbers and other personal details about their targets. Identity thieves use personal information numbers and other personal details.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                               <div class="swiper-slide">
+                                 <div class="testimonials-card">
+                                    <img src="assetes/images/5d02171f308a2ac9aa6f7683e4ed9c6d.jpg" alt="User Image" width="44px" height="44px" >
+                                    <div class="reviews-card-user-content">
+                                    <h3>David J. karem</h3>
+                                    <h5>Businessmen <span></span> 1 day ago</h5>
+                                    <p>Forget about spam, advertising mailings, hacking and attacking robots. Keep your real mailbox clean and secure. Temp Mail provides temporary, secure, anonymous, free, disposable email address. Stalkers and disgruntled acquaintances use the Internet to find addresses, phone numbers and other personal details about their targets. Identity thieves use personal information numbers and other personal details.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                               <div class="swiper-slide">
+                                 <div class="testimonials-card">
+                                   <img src="assetes/images/5d02171f308a2ac9aa6f7683e4ed9c6d.jpg" alt="User Image" width="44px" height="44px" >
+                                 <div class="reviews-card-user-content">
+                                   <h3>David J. karem</h3>
+                                   <h5>Businessmen <span></span> 1 day ago</h5>
+                                   <p>Forget about spam, advertising mailings, hacking and attacking robots. Keep your real mailbox clean and secure. Temp Mail provides temporary, secure, anonymous, free, disposable email address. Stalkers and disgruntled acquaintances use the Internet to find addresses, phone numbers and other personal details about their targets. Identity thieves use personal information numbers and other personal details.</p>
+                                 </div>
+                                 </div>
+                              </div>
+                               <div class="swiper-slide">
+                                 <div class="testimonials-card">
+                                   <img src="assetes/images/5d02171f308a2ac9aa6f7683e4ed9c6d.jpg" alt="User Image" width="44px" height="44px" >
+                                 <div class="reviews-card-user-content">
+                                   <h3>David J. karem</h3>
+                                   <h5>Businessmen <span></span> 1 day ago</h5>
+                                   <p>Forget about spam, advertising mailings, hacking and attacking robots. Keep your real mailbox clean and secure. Temp Mail provides temporary, secure, anonymous, free, disposable email address. Stalkers and disgruntled acquaintances use the Internet to find addresses, phone numbers and other personal details about their targets. Identity thieves use personal information numbers and other personal details.</p>
+                                 </div>
+                                 </div>
+                              </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                          </div>
+                          <div class="custom-next-button">
+                              <img src="assetes/images/arrow-right-01-testimonial.svg" alt="">
+                            </div>
+                            <div class="custom-prev-button">
+                               <img src="assetes/images/arrow-left-01.svg" alt="">
+                           </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials section end  -->
+
+    </main>
+
+
+    <!-- footer section start  -->
+    <footer>
+        <div class="wrapper">
+            <div class="footer-top-content">
+                <div  class="footer-top-title">
+                    <h2>Be part of the future of IdentityHub</h2>
+                    <img class="footer-gradient-img" src="./assetes/images/footer-gradient-img.svg" alt="">
+                </div>
+                <p>Unleash the power of AI within Brainwave. Upgrade your productivity with Brainwave, the open AI chat app.</p>
+                <button class="button-secondary footer-free-trial-btn">Start free trail</button>
+            </div>
+            <div class="footer-bottom-content">
+                <div class="footer-logo-and-nav">
+                    <div class="logo d-flex gap-2">
+                        <img src="assetes/images/Vector - 0.svg" alt="Website Logo">
+                        <h4>IdentityHub</h4>
+                    </div>
+                    <nav class="footer-nav">
+                        <ul class="d-flex">
+                            <li><a href="#">FEATURES</a></li>
+                            <li><a href="#">SERVICES</a></li>
+                            <li><a href="#">PRICING</a></li>
+                            <li><a href="#">HOW TO USE</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-copyright-and-social">
+                    <p>© identityhub 2024. All rights reserved</p>
+                    <div class="social-icon">
+                        <div>
+                            <img src="assetes/images/twitter.svg" alt="Twitter Icon">
+                        </div>
+                        <div>
+                            <img src="assetes/images/instagram.svg" alt="Instagram Icon">
+                        </div>
+                        <div>
+                            <img src="assetes/images/telegram.svg" alt="Telegram Icon">
+                        </div>
+                        <div>
+                            <img src="assetes/images/facebook.svg" alt="Facebook Icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end  -->
+
+
+
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./assetes/js/script.js"></script>
+</body>
+</html>

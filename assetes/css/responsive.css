@@ -1,0 +1,254 @@
+@media (max-width: 1200px) {
+    .pricing-card-price h3 {
+        font-size: 70px;
+    }
+}
+@media (max-width: 992px) {
+    .hanburger-icon {display: block;}
+    .nav-cta-button, .nav-links{
+        display: none;
+    }
+    .nav-links ul {
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        top: 100%;
+        left: 0;
+        background-color: rgb(32, 27, 27);
+        z-index: 10;
+        align-items: center;
+        padding: 20px !important;
+        gap: 30px !important;
+        border-radius: 20px;
+    }
+    .features-card {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .footer-nav ul li a {
+        padding: 15px 20px !important;
+    }
+}
+@media (max-width: 767px) {
+    .hero-title img {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 13px;
+    }
+    .footer-nav ul li a {
+        padding: 10px 10px !important;
+    }
+    .footer-logo-and-nav {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .footer-copyright-and-social {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .secure-data-btn {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .hero-title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .hero-desc {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .user-it-now-btn {
+        font-size: 12px;
+    }
+    .free-trial-btn {
+        font-size: 12px;
+    }
+    .one-time-passcode, .phone-numbers, .email-address, .credit-card {
+        display: none;
+    }
+    .container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .features-card2-right-content-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-btn { font-size: 10px; }
+    .services-top-content h3 {
+        width: 285px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .services-top-content p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .features-top-content h2 {
+        font-size: 24px;
+    }
+    .features-top-content p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .features-card-content h4 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .features-card-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .features-card3-right-content {
+        min-height: 350px;
+        width: 100%;
+    }
+    .testimonials-btn {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .testimonials-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .testimonials-card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .testimonials-content {
+        padding: 50px 0 50px 0 !important;
+    }
+    .reviews-card-user-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews-card-user-content h3 {
+        font-size: 18px;
+    }
+    .reviews-card-user-content h5 {
+        font-size: 14px;
+    }
+    .reviews-card-user-content p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .footer-top-title h2 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .footer-top-content p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .footer-free-trial-btn {
+        padding: 12px 20px !important;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    footer {
+        margin-top: 0 !important;
+    }
+    .hero-overlay {
+        position: relative;
+        padding: 40px 0 40px 0 !important;
+    }
+    .hero-bottom-content {
+        margin: 50px 0 0 0 !important;
+    }
+    .services-content {
+        padding: 40px 0 !important;
+    }
+    .features-content {
+        padding: 40px 0 !important;
+    }
+    .pricing-content {
+        padding: 40px 0 !important;
+    }
+}
+@media (max-width: 425px) {
+    .footer-nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .social-icon {
+        gap: 20px;
+    }
+    .footer-copyright-and-social p {
+        font-size: 12px;
+    }
+    .services-bottom-content {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .service-card-details h4 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .service-card-details p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .service-card {
+        border-top-right-radius: 70px;
+    }
+    .service-card::before {
+        border-top-right-radius: 70px;
+    }
+    .features-btn {
+        font-size: 9px;
+    }
+    .features-card {
+        padding: 15px !important;
+    }
+    .features-card3-right-content-card1, .features-card3-right-content-card2 {
+        min-width: auto;
+    }
+    .features-card3-right-content-card2 {
+        left: 40px;
+    }
+    .features-card2-right-content {
+        width: 100%;
+    }
+    .pricing-cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing-btn {
+        font-size: 10px;
+    }
+    .pricing-top-content h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .pricing-card-title h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .pricing-card-title p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .get-started-btn {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .pricing-card-feature p {
+        font-size: 12px;
+    }
+    .pricing-card-price h3 {
+        font-size: 60px;
+    }
+    
+    .reviews-slider-container {
+        padding: 15px !important;
+    }
+}

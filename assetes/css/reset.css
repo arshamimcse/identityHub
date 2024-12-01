@@ -1,0 +1,57 @@
+/* 1. Reset all margin and padding globally */
+*,
+*::before,
+*::after {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box; /* Ensure consistent box-sizing */
+}
+
+/* Specifically target Bootstrap's utility classes */
+[class^="row"],
+[class^="col"],
+[class*="col-"],
+[class*="g-"],
+[class*="m-"],
+[class*="p-"],
+[class*="pt-"],
+[class*="pb-"],
+[class*="pl-"],
+[class*="pr-"],
+[class*="px-"],
+[class*="py-"] {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.container {
+  margin: auto !important;
+}
+
+/* 2. Remove Default List Styling */
+ul, ol {
+  list-style: none;
+}
+
+/* 3. Reset Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 4. Reset Images and Media */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 5. Reset Form Elements */
+input, button, textarea, select {
+  font: inherit; /* Inherit font styles */
+  color: inherit; /* Ensure consistent text color */
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+}
